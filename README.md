@@ -42,15 +42,18 @@ Data Sentinel: Azure's PII Looker is a Streamlit application for extracting, det
    cd data-sentinel
    
 2. **Install Dependencies**:
+
    pip install -r requirements.txt
 
 
-3. **Set Environment Variables**: Replace your_azure_api_key and your_azure_endpoint with your Azure credentials:
+4. **Set Environment Variables**: Replace your_azure_api_key and your_azure_endpoint with your Azure credentials:
    
    export LANGUAGE_KEY="your_azure_api_key"
    export LANGUAGE_ENDPOINT="your_azure_endpoint"
 
-5. **Run the Application**: 
+5. **Run the Application**:
+
+
    streamlit run app.py
 
 
@@ -63,4 +66,6 @@ Contributions are welcome! Feel free to fork this repo, create feature requests,
 ##  📜License:
 This project is licensed under the MIT License.
 
-Start protecting your data today with Data Sentinel! 🚀
+
+
+##Start protecting your data today with Data Sentinel! 🚀
