@@ -63,9 +63,9 @@ This app can be deployed on Streamlit Cloud, Azure App Services, or in a Docker 
 ## 🤝Contributions:
 Contributions are welcome! Feel free to fork this repo, create feature requests, or submit pull requests for improvements. Let’s make secure data processing easy and accessible for everyone.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##  📜License:
 This project is licensed under the MIT License.
 
-
-
-##Start protecting your data today with Data Sentinel! 🚀
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Start protecting your data today with Data Sentinel! 🚀
