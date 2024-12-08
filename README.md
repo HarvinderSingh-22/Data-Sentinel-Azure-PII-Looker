@@ -41,17 +41,59 @@ Data Sentinel: Azure's PII Looker is a Streamlit application for extracting, det
    git clone https://github.com/your-username/data-sentinel.git
    cd data-sentinel
    
-### Install Dependencies:
+2. **Install Dependencies**:
 pip install -r requirements.txt
 
-###Set Environment Variables: Replace your_azure_api_key and your_azure_endpoint with your Azure credentials:
+
+3. **Set Environment Variables**: Replace your_azure_api_key and your_azure_endpoint with your Azure credentials:
+ 
+Here's the README.md tailored for GitHub:
+
+markdown
+Copy code
+# Data Sentinel: Azure's PII Looker 👁️‍🗨️
+
+**Data Sentinel** is a Streamlit-based application for securely processing employee ID card images. Using **Tesseract OCR** for text extraction and **Azure Cognitive Services** for PII detection, it identifies and anonymizes sensitive data like names, phone numbers, and email addresses.
+
+---
+
+## 🌟 Features
+- **Text Extraction**: Extracts text from uploaded employee ID card images.
+- **PII Detection**: Identifies sensitive information such as names, phone numbers, and emails.
+- **PII Masking**: Protects privacy by masking phone numbers and email addresses.
+- **Department Identification**: Detects employee departments (e.g., Sales, Marketing) using keyword matching.
+- **Interactive UI**: Displays extracted and masked data in a table with clickable image previews.
+- **Batch Processing**: Upload and process multiple images simultaneously.
+
+---
+
+## 🛠️ Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- Tesseract OCR installed ([Installation Guide](https://github.com/tesseract-ocr/tesseract))
+- Azure Cognitive Services subscription for Text Analytics
+
+### Steps
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/data-sentinel.git
+   cd data-sentinel
+   
+2. **Install Dependencies**:
+
+bash
+Copy code
+pip install -r requirements.txt
+
+3. **Set Environment Variables**: Replace your_azure_api_key and your_azure_endpoint with your Azure credentials:
 
 bash
 Copy code
 export LANGUAGE_KEY="your_azure_api_key"
 export LANGUAGE_ENDPOINT="your_azure_endpoint"
 
-##Run the Application:
+4. **Run the Application**:
 streamlit run app.py
 
 
